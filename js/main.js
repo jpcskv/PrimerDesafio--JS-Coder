@@ -21,7 +21,7 @@ function calculo(monto, cuotas) {
   alert("\nHola! por favor, simula tu prestamo😎");
   
   let monto = parseInt(
-    prompt("Ingresa el monto que quieres solicitar\n\n *recuerda que lo minimo a solicitar es de 10,000$")
+    prompt("Ingresa el monto que quieres solicitar\n\n *recuerda que lo minimo a solicitar es de 10000$")
   );
   
   while (monto < 10000) {
